@@ -1,0 +1,23 @@
+/* Documentation */
+div.docs {background-color: #ddd;}
+.docs table {width: 100%;}
+.docs th {
+}
+.docs tbody th span {
+  display: block;
+  color: #999;
+  font-weight: normal;
+  text-shadow: 0 1px 0 white;
+}
+
+.picatcha-error {
+   font-size: 1.8em;
+   padding-bottom: 8px;
+}
+
+/*Fix for wordpress registration width*/
+#login{
+	width:410px;
+/*	in case another module wants to change the login length*/
+	min-width:410px;
+}
